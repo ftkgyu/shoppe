@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    &__list{
+        display: flex;
+        justify-content: center;
+        gap: 64px;
+    }
+}

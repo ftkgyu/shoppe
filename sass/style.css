@@ -1,1 +1,14 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}/*# sourceMappingURL=style.css.map */

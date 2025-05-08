@@ -1,9 +1,44 @@
 .header{
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    &__logo{
+        margin-left:  96px;
+    }
+    &__navigation{
+        display: flex;
+        justify-content: center;       
+    }
     &__list{
         display: flex;
         justify-content: center;
+        align-items: center;
+        position: relative;
         gap: 64px;
+        margin-right:  96px;
+        &-item a{
+            color: $black;
+        }
+        &__line span{
+            position: absolute;
+            top: 10px;
+            width: 17px;
+            border: 1px solid $dark-gray;
+            transform: rotate(90deg);
+            background-color: $black;
+
+        }
+    }
+    &__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 39px;
+        margin-right:  96px;
+        &-item{
+           width: 19px;
+           height: 19px; 
+        }
     }
 }

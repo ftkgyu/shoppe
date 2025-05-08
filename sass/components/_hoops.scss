@@ -1,0 +1,50 @@
+.hoops {
+    &__container {
+
+    }
+
+    &__background {
+        background-image: url("../../images/background.png.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        // padding-top: 400px;
+        // padding-bottom: 150px;
+        margin: 0 auto;
+        width: 1248px;
+        height: 646px;
+    }
+    
+    &__mainpart{
+        padding-top: 226px;
+        padding-left: 39px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 43px;
+        color: $white;
+        margin-bottom: 16px;
+    }
+
+    &__price {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 35px;
+        color: $white;
+        margin-bottom: 48px;    
+    }
+
+    &__button {
+        width: 193px;
+        height: 53px;
+        border-radius: 6px;
+        background: transparent;
+        border: 2px solid $white;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: $white;
+    }
+}

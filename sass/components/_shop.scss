@@ -1,0 +1,47 @@
+.shop {
+    &__top--container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 36px;
+        margin-right: 138px;
+    }
+
+    &__title {
+        margin-top: 64px;
+        margin-left: 96px;
+        margin-bottom: 39px;
+        font-weight: 500;
+        font-size: 33px;
+    }
+
+    &__viewtext {
+        color: $Accent-Light;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 57px;
+        margin-left: 70px;
+        &--item{
+            margin-bottom: 86px;
+            width: calc((100% - 114px) / 3 );
+        }
+    }
+
+    &__text{
+        color: $black;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 24px 0 16px 0;
+    }
+
+    &__price{
+        color: $Accent-Light;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}

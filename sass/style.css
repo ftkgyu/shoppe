@@ -82,6 +82,102 @@
   color: #ffffff;
 }
 
+.shop__top--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 36px;
+  margin-right: 138px;
+}
+.shop__title {
+  margin-top: 64px;
+  margin-left: 96px;
+  margin-bottom: 39px;
+  font-weight: 500;
+  font-size: 33px;
+}
+.shop__viewtext {
+  color: #A18A68;
+  font-weight: 500;
+  font-size: 20px;
+}
+.shop__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 57px;
+  margin-left: 70px;
+}
+.shop__container--item {
+  margin-bottom: 86px;
+  width: calc((100% - 114px) / 3);
+}
+.shop__text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 24px 0 16px 0;
+}
+.shop__price {
+  color: #A18A68;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 1248px;
+  height: 148px;
+  margin-bottom: 90px;
+  margin-top: 150px;
+}
+.footer__line {
+  height: 1px;
+  width: 100%;
+  background-color: #D8D8D8;
+  margin-bottom: 52px;
+}
+.footer__firstcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.footer__list {
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+.footer__input {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: none;
+}
+.footer__input:focus {
+  outline: none;
+}
+.footer__input::after {
+  content: url(../../images/strelka.svg);
+  position: absolute;
+}
+.footer__secondcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__text span {
+  color: #707070;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -42,14 +42,60 @@
   width: 19px;
   height: 19px;
 }
+.header__burgermenu {
+  display: none;
+}
 
+@media (max-width: 320px) {
+  .header__list {
+    display: none;
+  }
+  .header__icons-item:nth-child(odd) {
+    display: none;
+  }
+  .header__burgermenu {
+    display: block;
+    position: relative;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  .header__toggle span, .header__toggle span::before, .header__toggle span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    right: 0;
+    border-radius: 15px;
+  }
+  .header__toggle span {
+    width: 20px;
+    height: 2px;
+  }
+  .header__toggle span::before {
+    width: 20px;
+    height: 2px;
+    top: 6px;
+  }
+  .header__toggle span::after {
+    width: 14px;
+    height: 2px;
+    top: 12px;
+  }
+}
 .hoops__background {
-  background-image: url("../../images/background.png.png");
+  background-image: url("../images/background.png.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
-  width: 1248px;
-  height: 646px;
+  width: 1400px;
+  height: 725px;
 }
 .hoops__mainpart {
   padding-top: 226px;
